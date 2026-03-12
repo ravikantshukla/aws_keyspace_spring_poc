@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: aws-keyspaces-spring-poc
+
+aws:
+  keyspaces:
+    contact-point: cassandra.us-east-1.amazonaws.com
+    port: 9142
+    local-datacenter: us-east-1
+    keyspace-name: your_keyspace
+    region: us-east-1
+    truststore-path: /path/to/keyspaces-truststore.p12
+    truststore-password: changeit
